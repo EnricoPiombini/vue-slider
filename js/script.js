@@ -27,3 +27,13 @@ const slides = [
 ];
 
 console.log(slides);
+
+const slider = new Vue({
+    el: "#app",
+    data: {
+        countryList: slides,
+       
+
+    },
+   
+});
